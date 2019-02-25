@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,112,186,0.7);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.quote {
+  width:80%;
+  height: 55%;
+  margin: 0%;
+  padding-top: 10%;
+  padding-bottom: 35%;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: absolute;
+
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+
+  
+}
+.name {
+  width: 80%;
+  height: 25%;
+  margin: 0%;
+  padding-top: 65%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: absolute;
+
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="3306-std.jpg" alt="Kite1" class="image">
+  <div class="overlay">
+    <p class="quote">"As usual for ITW kites, materials and workmanship are first rate."</p>
+    <p class="name">- StL ThingGuy181</p>
+  </div>
+</div>
+
+<div class="container">
+  <img src="3609-std.jpg" alt="Kite2" class="image">
+  <div class="overlay">
+    <p class="quote">"As usual for ITW kites, materials and workmanship are first rate."</p>
+    <p class="name">- StL ThingGuy181</p>
+  </div>
+</div>
+
+<div class="container">
+  <img src="3627-std.jpg" alt="Kite3" class="image">
+  <div class="overlay">
+    <p class="quote">"As usual for ITW kites, materials and workmanship are first rate."</p>
+    <p class="name">- StL ThingGuy181</p>
+  </div>
+</div>
+
+<div class="container">
+  <img src="5157-std.jpg" alt="Kite4" class="image">
+  <div class="overlay">
+    <p class="quote">"As usual for ITW kites, materials and workmanship are first rate."</p>
+    <p class="name">- StL ThingGuy181</p>
+  </div>
+</div>
+
+</body>
+</html>
